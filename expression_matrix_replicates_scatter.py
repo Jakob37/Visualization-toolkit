@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+"""
+Visualize a pair of samples for particular feature as categorical scatter representing
+intensity values for each replicate.
+"""
+
+
 import argparse
 import pandas as pd
 import seaborn as sns
